@@ -1,2 +1,65 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+html {
+  font-size: 22px;
+}
+
+h1 {
+  font-family: Arial;
+  font-style: normal;
+}
+
+h2 {
+  font-family: Arial;
+  font-style: italic;
+}
+header {
+  border-bottom: black;
+}
+
+.class-list{
+  list-style-type: square;
+}
+
+.item {
+  border-color:black;
+}
+
+.even {
+  background-color: gray;
+}
+
+.odd {
+  background-color: black;
+  color: white;
+}
+
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  text-align: right;
+}
+
+ol > li {
+  padding: 8px;
+  background-color: gray;
+}
+
+ol> li:nth-child(odd) {
+  background-color: green;
+}
+
+.exercises a:hover {
+  text-decoration: none;
+}
+
+#advanced-selectors ul:hover {
+  background-color: yellow;
+
+}
+
+#advanced-selectors ul:active {
+  background-color: red;
+}
